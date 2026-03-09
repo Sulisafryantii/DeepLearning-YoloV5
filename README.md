@@ -1,8 +1,10 @@
 # DeepLearning-YoloV5
 ## Deteksi Visual Cover Minuman Nutrisari Menggunakan Model YOLOv5 & Roboflow
-Project ini bertujuan untuk mengembangkan sistem deteksi visual yang dapat mengenali cover minuman Nutrisari menggunakan model YOLOv5 (You Only Look Once v5). YOLOv5 adalah algoritma deep learning berbasis Convolutional Neural Network (CNN) yang terkenal dengan kecepatan dan akurasi tinggi dalam mendeteksi objek gambar ataupun video.
-
-Dataset : Cover Minuman Nutrisari
+Project ini bertujuan untuk mengembangkan sistem deteksi visual yang dapat mengenali cover minuman Nutrisari menggunakan model YOLOv5 (You Only Look Once v5). YOLOv5 adalah algoritma deep learning berbasis Convolutional Neural Network (CNN) yang terkenal dengan kecepatan dan akurasi tinggi dalam mendeteksi objek gambar ataupun video. Dataset : Cover Minuman Nutrisari
+Deskripsi Project : 
+1. Data Collection : Dataset berupa gambar cover kemasan Nutrisari.
+2. Data Annotation : Menandai area cover Nutrisari pada setiap gambar menggunakan kotak pembatas (bounding box).
+3. Pra-pemrosesan & Augmentasi Data (Preprocessing & Augmentation) : Pembagian data untuk training, testing dan validasi.
 
 ### Evaluasi Matriks
 <img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/df9a243c-849c-4fba-ac83-3a77b4d00476" />
